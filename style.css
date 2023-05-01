@@ -10,9 +10,9 @@ body{
 .heart{
     height: 70px;
     width: 70px;
-    background-color:red;
+    background-color:;
     position: relative;
-    box-shadow: 10px 10px 90px red;
+    box-shadow: 10px 10px 90px yellow;
     animation: animHeart .6s linear infinite;
 }
 @keyframes animHeart{
@@ -29,18 +29,18 @@ body{
     position: absolute;
     height: 70px;
     width: 70px;
-    background-color: red;
-    box-shadow: 10px 10px 90px red;
+    background-color: yellow;
+    box-shadow: 10px 10px 90px yellow;
     top: -50%;
     border-radius: 50%;
 }
 .heart::after{
     content: "";
     position: absolute;
-    box-shadow: -10 10px 90px red;
+    box-shadow: -10 10px 90px yellow;
     height: 70px;
     width: 70px;
-    background-color: red;
+    background-color: yellow;
     right: -50%;
     border-radius: 50%;
 }
