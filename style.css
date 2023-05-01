@@ -10,7 +10,7 @@ body{
 .heart{
     height: 70px;
     width: 70px;
-    background-color:;
+    background-color:red;
     position: relative;
     box-shadow: 10px 10px 90px red;
     animation: animHeart .6s linear infinite;
@@ -44,3 +44,4 @@ body{
     right: -50%;
     border-radius: 50%;
 }
+
